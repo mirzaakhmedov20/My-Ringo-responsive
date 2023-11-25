@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Ringo Ukraina</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header id="header" class="header">
+        <div class="content-conteiner header__content-conteiner">
+          <div class="logo header__logo">
+            <a href="index.html"
+              ><picture
+                ><source srcset="img/logo.webp" type="image/webp" />
+                <img
+                  class="logo__img"
+                  src="img/logo.png"
+                  alt="Логотип «Ринго»" /></picture
+            ></a>
+          </div>
+          <nav id="navmenu" class="navmenu header__navmenu">
+            <ul class="navmenu__list">
+              <li>
+                <a
+                  class="navmenu__link"
+                  href="#directions"
+                  data-scroll-to="#directions"
+                  >Напрямки</a
+                >
+              </li>
+              <li>
+                <a
+                  class="navmenu__link"
+                  href="#company"
+                  data-scroll-to="#company"
+                  >Про компанію</a
+                >
+              </li>
+              <li>
+                <a
+                  class="navmenu__link"
+                  href="#benefits"
+                  data-scroll-to="#benefits"
+                  >Переваги</a
+                >
+              </li>
+              <li>
+                <a
+                  class="navmenu__link"
+                  href="#stages-work"
+                  data-scroll-to="#stages-work"
+                  >Етапи роботи</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="social-links header__social-links">
+            <a
+              class="social-links__link"
+              href="https://www.instagram.com/"
+              target="_blank"
+              ><i class="iconfonts icon-instagram"></i></a
+            ><a
+              class="social-links__link"
+              href="https://ru-ru.facebook.com/"
+              target="_blank"
+              ><i class="iconfonts icon-facebook"></i
+            ></a>
+          </div>
+          <div class="contacts header__contacts">
+            <i class="iconfonts icon-phone"></i
+            ><a class="link-phone" href="tel:+380676615415">+380 67661 5415</a>
+          </div>
+          <div class="burger-menu">
+            <div class="iconfonts burger-menu__icon"></div>
+          </div>
+        </div>
+      </header>
+      <main class="page">
+        <section id="home" class="home">
+          <div class="content-conteiner home__content-conteiner">
+            <div class="home__slider slider-home swiper">
+              <div class="slider-home__wrapper swiper-wrapper">
+                <div class="slider-home__slide3 swiper-slide">
+                  <div class="slider-home__banner banner-slider-home">
+                    <div
+                      class="banner-slider-home__img banner__img"
+                      data-swiper-parallax="20%"
+                    ></div>
+                    <div class="banner-slider-home__text banner__text">
+                      <h1
+                        class="banner-slider-home__title banner__title"
+                        data-swiper-parallax="-300"
+                      >
+                        виробництво меблів
+                      </h1>
+                      <p class="banner-slider-home__subtitle banner__subtitle">
+                        Ми створені виконувати об`єктні задачі комплексного
+                        меблювання житлових та комерційних приміщень. Наш
+                        колектив націлений на результат - вчасно реалізувати
+                        проект на найвищому рівні. Ми забезпечуємо ваш спокій та
+                        беремо на себе вирішення будь-яких задач.
+                      </p>
+                      <button
+                        type="button"
+                        class="btn banner-slider-home__btn banner__btn"
+                        data-scroll-to="#discuss-project"
+                      >
+                        Обговорити проект
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-home__slide2 swiper-slide">
+                  <div class="slider-home__banner banner-slider-home">
+                    <div
+                      class="banner-slider-home__img banner__img"
+                      data-swiper-parallax="20%"
+                    ></div>
+                    <div class="banner-slider-home__text banner__text">
+                      <h2
+                        class="banner-slider-home__title banner__title"
+                        data-swiper-parallax="-300"
+                      >
+                        Дизайн <br />інтер'єру
+                      </h2>
+                      <p class="banner-slider-home__subtitle banner__subtitle">
+                        В дизайні ми поєднуємо стильні ідеї з практичною
+                        ергономікою та можливістю точно реалізувати
+                        візуалізацію. Наш інтер`єр - це ваш індивідуальний
+                        простір, зона комфорту в житті та роботі
+                      </p>
+                      <button
+                        type="button"
+                        class="btn banner-slider-home__btn banner__btn"
+                        data-scroll-to="#discuss-project"
+                      >
+                        Обговорити проект
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-home__slide3 swiper-slide">
+                  <div class="slider-home__banner banner-slider-home">
+                    <div
+                      class="banner-slider-home__img banner__img"
+                      data-swiper-parallax="20%"
+                    ></div>
+                    <div class="banner-slider-home__text banner__text">
+                      <h2
+                        class="banner-slider-home__title banner__title"
+                        data-swiper-parallax="-300"
+                      >
+                        Виробництво <br />меблів
+                      </h2>
+                      <p class="banner-slider-home__subtitle banner__subtitle">
+                        Ми виконуємо комплексне виготовлення корпусних меблів
+                        для житлових і комерційних приміщень, забезпечимо Вас
+                        якісним меблевим продуктом власного виробництва.
+                      </p>
+                      <button
+                        type="button"
+                        class="btn banner-slider-home__btn banner__btn"
+                        data-scroll-to="#discuss-project"
+                      >
+                        Обговорити проект
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-controls">
+                <div class="swiper-controls__navigation">
+                  <div class="swiper-button-next">
+                    <i class="iconfonts icon-arrow-left"></i>
+                  </div>
+                  <div class="swiper-button-prev">
+                    <i class="iconfonts icon-arrow-right"></i>
+                  </div>
+                </div>
+                <div class="swiper-controls__pagination">
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="directions" class="directions">
+          <div class="content-conteiner directions__content-conteiner">
+            <h2 class="directions__title">Основні напрямки</h2>
+            <div class="directions__list">
+              <div
+                class="design"
+                data-aos="fade-up"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+              >
+                <h5 class="design__numder">01</h5>
+                <h5 class="design__title">Дизайн інтерєру</h5>
+                <div class="design__img"></div>
+              </div>
+              <div
+                class="production"
+                data-aos="fade-up"
+                data-aos-delay="400"
+                data-aos-duration="1000"
+                data-aos-anchor=".design"
+                data-aos-anchor-placement="top-center"
+              >
+                <h5 class="production__numder">02</h5>
+                <h5 class="production__title">Виробництво меблів</h5>
+                <div class="production__img"></div>
+              </div>
+              <div
+                class="furniture"
+                data-aos="fade-up"
+                data-aos-delay="1000"
+                data-aos-duration="1000"
+                data-aos-anchor=".production"
+                data-aos-anchor-placement="top-center"
+              >
+                <h5 class="furniture__numder">03</h5>
+                <h5 class="furniture__title">Комплексне меблювання</h5>
+                <div class="furniture__img"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="provision">
+          <div class="content-conteiner provision__content-conteiner">
+            <h2 class="provision__title">Ми забезпечемо вас</h2>
+            <div class="provision__list list-provision">
+              <div class="list-provision__item">
+                <picture
+                  ><source
+                    srcset="img/provision/provision_img1.webp"
+                    type="image/webp" />
+                  <img src="img/provision/provision_img1.png" alt="Мебля"
+                /></picture>
+                <h5>Меблями</h5>
+              </div>
+              <div class="list-provision__item">
+                <picture
+                  ><source
+                    srcset="img/provision/provision_img2.webp"
+                    type="image/webp" />
+                  <img src="img/provision/provision_img2.png" alt="Освітлення"
+                /></picture>
+                <h5>Освітленням</h5>
+              </div>
+              <div class="list-provision__item">
+                <picture
+                  ><source
+                    srcset="img/provision/provision_img3.webp"
+                    type="image/webp" />
+                  <img
+                    src="img/provision/provision_img3.png"
+                    alt="Побутова техніка"
+                /></picture>
+                <h5>Побутовою технікою</h5>
+              </div>
+              <div class="list-provision__item">
+                <picture
+                  ><source
+                    srcset="img/provision/provision_img4.webp"
+                    type="image/webp" />
+                  <img src="img/provision/provision_img4.png" alt="Двері"
+                /></picture>
+                <h5>Дверима</h5>
+              </div>
+              <div class="list-provision__item">
+                <img
+                  src="img/provision/provision_img5.png"
+                  alt="Стінові панелі та підлогові покриття"
+                />
+                <h5>Стіновими панелями та підлоговим покриттям</h5>
+              </div>
+              <div class="list-provision__item">
+                <picture
+                  ><source
+                    srcset="img/provision/provision_img6.webp"
+                    type="image/webp" />
+                  <img
+                    src="img/provision/provision_img6.png"
+                    alt="Проектування"
+                /></picture>
+                <h5>Проектуванням</h5>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="company" class="company">
+          <div class="content-conteiner company__content-conteiner">
+            <h3 class="company__title">
+              Проект Рінго Україна - створений виконувати об`єктні задачі
+              комплексного меблювання житлових та комерційних приміщень.
+            </h3>
+            <div class="company__text">
+              <p>
+                <span
+                  >Наш колектив націлений на результат - вчасно реалізувати
+                  проект на найвищому рівні. Ми забезпечуємо спокій замовника та
+                  вирішуємо будь-які задачі
+                </span>
+              </p>
+              <p>
+                <span
+                  >Рінго найкращий підрядник прораба, дизайнера,
+                  проект-менеджера або персональний помічник власника бізнесу,
+                  квартири чи салону
+                </span>
+              </p>
+            </div>
+            <div
+              class="company__banner"
+              data-aos="zoom-in-down"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              data-aos-anchor-placement="top-center"
+            >
+              <picture
+                ><source
+                  srcset="img/company/company_img1.webp"
+                  type="image/webp" />
+                <img src="img/company/company_img1.png" alt="Кухня"
+              /></picture>
+            </div>
+            <div
+              class="company__banner"
+              data-aos="zoom-in-up"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+            >
+              <picture
+                ><source
+                  srcset="img/company/company_img2.webp"
+                  type="image/webp" />
+                <img src="img/company/company_img2.png" alt="Спальня"
+              /></picture>
+            </div>
+          </div>
+        </section>
+        <section id="benefits" class="benefits">
+          <div class="content-conteiner benefits__content-conteiner">
+            <h2 class="benefits__title">Наші переваги</h2>
+            <div class="benefits__list list-benefits">
+              <div class="list-benefits__item">
+                <h5 class="item__number">01</h5>
+                <div class="item__banner banner-item">
+                  <picture
+                    ><source
+                      srcset="img/benefits/benefits_img1.webp"
+                      type="image/webp" />
+                    <img src="img/benefits/benefits_img1.jpg" alt="Мобільність"
+                  /></picture>
+                </div>
+                <div class="item__text text-item">
+                  <p class="text-item__title" data-item="Мобільність">
+                    Мобільність
+                  </p>
+                  <p class="text-item__info">
+                    Проводимо зустрічі на об`єктах в затишних закладах Києва
+                  </p>
+                </div>
+              </div>
+              <div class="list-benefits__item">
+                <h5 class="item__number">02</h5>
+                <div class="item__banner banner-item">
+                  <picture
+                    ><source
+                      srcset="img/benefits/benefits_img2.webp"
+                      type="image/webp" />
+                    <img src="img/benefits/benefits_img2.jpg" alt="Надійність"
+                  /></picture>
+                </div>
+                <div class="item__text text-item">
+                  <p class="text-item__title" data-item="Надійність">
+                    Надійність
+                  </p>
+                  <p class="text-item__info">
+                    Система нашої роботи зосереджена на якості та термінах
+                    завершення проекту
+                  </p>
+                </div>
+              </div>
+              <div class="list-benefits__item">
+                <h5 class="item__number">03</h5>
+                <div class="item__banner banner-item">
+                  <picture
+                    ><source
+                      srcset="img/benefits/benefits_img3.webp"
+                      type="image/webp" />
+                    <img src="img/benefits/benefits_img3.jpg" alt="Якість"
+                  /></picture>
+                </div>
+                <div class="item__text text-item">
+                  <p class="text-item__title" data-item="Якість">Якість</p>
+                  <p class="text-item__info">
+                    Виготовляємо виключно з перевірених європейських брендів
+                  </p>
+                </div>
+              </div>
+              <div class="list-benefits__item">
+                <h5 class="item__number">04</h5>
+                <div class="item__banner banner-item">
+                  <picture
+                    ><source
+                      srcset="img/benefits/benefits_img4.webp"
+                      type="image/webp" />
+                    <img
+                      src="img/benefits/benefits_img4.jpg"
+                      alt="Професіоналізм"
+                  /></picture>
+                </div>
+                <div class="item__text text-item">
+                  <p class="text-item__title" data-item="Професіоналізм">
+                    Професіоналізм
+                  </p>
+                  <p class="text-item__info">
+                    Наша команда - це клуб професіоналів, об`єднаних в одній
+                    компанії
+                  </p>
+                </div>
+              </div>
+              <div class="list-benefits__item">
+                <h5 class="item__number">05</h5>
+                <div class="item__banner banner-item">
+                  <picture
+                    ><source
+                      srcset="img/benefits/benefits_img5.webp"
+                      type="image/webp" />
+                    <img src="img/benefits/benefits_img5.jpg" alt="Вигідність"
+                  /></picture>
+                </div>
+                <div class="item__text text-item">
+                  <p class="text-item__title" data-item="Вигідність">
+                    Вигідність
+                  </p>
+                  <p class="text-item__info">
+                    Ми відмовились від шоу-руму та офісу на користь вартості та
+                    мобільності
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="discuss-project" class="discuss-project">
+          <div class="content-conteiner discuss-project__content-conteiner">
+            <div class="discuss-project__content">
+              <div class="form-wrap discuss-project__form-wrap">
+                <h2 class="title--white discuss-project__title">
+                  Обговоримо ваш проект?
+                </h2>
+                <form
+                  id="discuss-project__form"
+                  class="form discuss-project__form"
+                  enctype="multipart/form-data"
+                >
+                  <p class="form__text form-discuss-project__text">
+                    Заповніть форму і найближчим часом ми зв'яжемося з вами!
+                  </p>
+                  <div class="form__input form-discuss-project__input">
+                    <input
+                      id="input-name"
+                      class="form-control"
+                      type="text"
+                      name="name"
+                      placeholder="Ім'я"
+                    />
+                  </div>
+                  <div class="form__input form-discuss-project__input">
+                    <input
+                      class="form-control"
+                      type="tel"
+                      name="phone"
+                      placeholder="Номер телефону"
+                    />
+                  </div>
+                  <div class="form__file file-form">
+                    <input
+                      id="file-input"
+                      class="file-form__input"
+                      type="file"
+                      name="file-project"
+                      multiple="multiple"
+                    /><label class="file-form__btn" for="file-input"
+                      ><picture
+                        ><source
+                          srcset="img/discuss-project/file.webp"
+                          type="image/webp" />
+                        <img
+                          src="img/discuss-project/file.png"
+                          alt="Прикріпити проект" /></picture
+                      ><span>Прикріпити проект</span></label
+                    >
+                  </div>
+                  <div
+                    id="discuss-project__form-checkbox"
+                    class="form-checkbox discuss-project__form-checkbox"
+                  >
+                    <input type="checkbox" />
+                    <span class="form-checkbox__label"
+                      >Даю згоду на оброблення персональних даних</span
+                    >
+                  </div>
+                </form>
+                <div
+                  id="discuss-project__form-message"
+                  class="form-message discuss-project__form-message hidden"
+                >
+                  <div
+                    id="form-message__verified"
+                    class="form-message__verified"
+                  >
+                    <h5>Дякуємо, що звернулися до нас!</h5>
+                    <p>Наш менеджер зв'яжеться з вами протягом години.</p>
+                  </div>
+                </div>
+                <button
+                  id="form-discuss-project__btn"
+                  class="btn btn--form form-discuss-project__btn"
+                  type="submit"
+                  name="submit"
+                  form="discuss-project__form"
+                >
+                  Відправити
+                </button>
+              </div>
+            </div>
+            <div class="discuss-project__banner"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
